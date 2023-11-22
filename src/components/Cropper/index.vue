@@ -127,7 +127,7 @@ export default {
 						success: function(res) {
 							const canvasImg = res.tempFilePath;
 							Taro.uploadFile({
-								url: 'https://api.evosimy.top/ocr',
+								url: 'https://api.xxx.top/ocr',
 								filePath: canvasImg,
 								timeout: 60000,
 								name: 'img',
