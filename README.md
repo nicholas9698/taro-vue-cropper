@@ -7,10 +7,19 @@ Taro3.x+Vue3+NutUI图片裁剪
 
 ```
 <template>
-  <cropper />
+  <view>
+      <image-cropper />
+  </view>
 </template>
 <script>
-import cropper from 'src/components/ImageCropper/cropper.vue';
+import ImageCropper from '../../components/Cropper';
+export default {
+  name: 'Index',
+  components: {
+    MyTabbar,
+    ImageCropper
+  },
+}
 </script>
 
 ```
